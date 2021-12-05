@@ -72,6 +72,7 @@ namespace WindowsFormsApp2
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.button34 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -84,7 +85,7 @@ namespace WindowsFormsApp2
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(40, 221);
+            this.button1.Location = new System.Drawing.Point(95, 220);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(49, 33);
             this.button1.TabIndex = 0;
@@ -121,7 +122,7 @@ namespace WindowsFormsApp2
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(40, 261);
+            this.button5.Location = new System.Drawing.Point(95, 263);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(49, 34);
             this.button5.TabIndex = 0;
@@ -131,7 +132,7 @@ namespace WindowsFormsApp2
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(40, 303);
+            this.button6.Location = new System.Drawing.Point(95, 303);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(49, 34);
             this.button6.TabIndex = 0;
@@ -141,7 +142,7 @@ namespace WindowsFormsApp2
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(40, 343);
+            this.button7.Location = new System.Drawing.Point(95, 343);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(49, 33);
             this.button7.TabIndex = 0;
@@ -150,7 +151,7 @@ namespace WindowsFormsApp2
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(95, 302);
+            this.button8.Location = new System.Drawing.Point(150, 304);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(49, 35);
             this.button8.TabIndex = 0;
@@ -159,7 +160,7 @@ namespace WindowsFormsApp2
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(95, 261);
+            this.button9.Location = new System.Drawing.Point(150, 263);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(49, 34);
             this.button9.TabIndex = 0;
@@ -168,7 +169,7 @@ namespace WindowsFormsApp2
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(95, 221);
+            this.button10.Location = new System.Drawing.Point(150, 221);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(49, 34);
             this.button10.TabIndex = 0;
@@ -178,7 +179,7 @@ namespace WindowsFormsApp2
             // 
             // button11
             // 
-            this.button11.Location = new System.Drawing.Point(95, 182);
+            this.button11.Location = new System.Drawing.Point(150, 181);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(49, 33);
             this.button11.TabIndex = 0;
@@ -224,7 +225,7 @@ namespace WindowsFormsApp2
             // 
             // button16
             // 
-            this.button16.Location = new System.Drawing.Point(150, 182);
+            this.button16.Location = new System.Drawing.Point(205, 181);
             this.button16.Name = "button16";
             this.button16.Size = new System.Drawing.Size(49, 33);
             this.button16.TabIndex = 0;
@@ -233,7 +234,7 @@ namespace WindowsFormsApp2
             // 
             // button17
             // 
-            this.button17.Location = new System.Drawing.Point(150, 221);
+            this.button17.Location = new System.Drawing.Point(205, 220);
             this.button17.Name = "button17";
             this.button17.Size = new System.Drawing.Size(49, 34);
             this.button17.TabIndex = 0;
@@ -243,7 +244,7 @@ namespace WindowsFormsApp2
             // 
             // button18
             // 
-            this.button18.Location = new System.Drawing.Point(150, 262);
+            this.button18.Location = new System.Drawing.Point(205, 263);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(49, 34);
             this.button18.TabIndex = 0;
@@ -252,7 +253,7 @@ namespace WindowsFormsApp2
             // 
             // button19
             // 
-            this.button19.Location = new System.Drawing.Point(150, 301);
+            this.button19.Location = new System.Drawing.Point(205, 303);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(49, 36);
             this.button19.TabIndex = 0;
@@ -261,7 +262,7 @@ namespace WindowsFormsApp2
             // 
             // button20
             // 
-            this.button20.Location = new System.Drawing.Point(205, 302);
+            this.button20.Location = new System.Drawing.Point(40, 342);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(49, 34);
             this.button20.TabIndex = 0;
@@ -270,7 +271,7 @@ namespace WindowsFormsApp2
             // 
             // button21
             // 
-            this.button21.Location = new System.Drawing.Point(205, 261);
+            this.button21.Location = new System.Drawing.Point(40, 304);
             this.button21.Name = "button21";
             this.button21.Size = new System.Drawing.Size(49, 35);
             this.button21.TabIndex = 0;
@@ -279,7 +280,7 @@ namespace WindowsFormsApp2
             // 
             // button22
             // 
-            this.button22.Location = new System.Drawing.Point(205, 221);
+            this.button22.Location = new System.Drawing.Point(40, 263);
             this.button22.Name = "button22";
             this.button22.Size = new System.Drawing.Size(49, 34);
             this.button22.TabIndex = 0;
@@ -288,7 +289,7 @@ namespace WindowsFormsApp2
             // 
             // button23
             // 
-            this.button23.Location = new System.Drawing.Point(205, 182);
+            this.button23.Location = new System.Drawing.Point(40, 220);
             this.button23.Name = "button23";
             this.button23.Size = new System.Drawing.Size(49, 33);
             this.button23.TabIndex = 0;
@@ -372,7 +373,7 @@ namespace WindowsFormsApp2
             // 
             // button28
             // 
-            this.button28.Location = new System.Drawing.Point(95, 343);
+            this.button28.Location = new System.Drawing.Point(150, 343);
             this.button28.Name = "button28";
             this.button28.Size = new System.Drawing.Size(49, 33);
             this.button28.TabIndex = 0;
@@ -381,7 +382,7 @@ namespace WindowsFormsApp2
             // 
             // button29
             // 
-            this.button29.Location = new System.Drawing.Point(150, 342);
+            this.button29.Location = new System.Drawing.Point(205, 342);
             this.button29.Name = "button29";
             this.button29.Size = new System.Drawing.Size(49, 33);
             this.button29.TabIndex = 0;
@@ -390,7 +391,7 @@ namespace WindowsFormsApp2
             // 
             // button30
             // 
-            this.button30.Location = new System.Drawing.Point(205, 343);
+            this.button30.Location = new System.Drawing.Point(40, 381);
             this.button30.Name = "button30";
             this.button30.Size = new System.Drawing.Size(49, 33);
             this.button30.TabIndex = 0;
@@ -399,7 +400,7 @@ namespace WindowsFormsApp2
             // 
             // button31
             // 
-            this.button31.Location = new System.Drawing.Point(40, 382);
+            this.button31.Location = new System.Drawing.Point(95, 382);
             this.button31.Name = "button31";
             this.button31.Size = new System.Drawing.Size(49, 33);
             this.button31.TabIndex = 0;
@@ -408,7 +409,7 @@ namespace WindowsFormsApp2
             // 
             // button32
             // 
-            this.button32.Location = new System.Drawing.Point(95, 382);
+            this.button32.Location = new System.Drawing.Point(150, 381);
             this.button32.Name = "button32";
             this.button32.Size = new System.Drawing.Size(49, 33);
             this.button32.TabIndex = 0;
@@ -417,7 +418,7 @@ namespace WindowsFormsApp2
             // 
             // button33
             // 
-            this.button33.Location = new System.Drawing.Point(150, 382);
+            this.button33.Location = new System.Drawing.Point(205, 382);
             this.button33.Name = "button33";
             this.button33.Size = new System.Drawing.Size(49, 33);
             this.button33.TabIndex = 0;
@@ -474,6 +475,15 @@ namespace WindowsFormsApp2
             this.pictureBox7.TabIndex = 9;
             this.pictureBox7.TabStop = false;
             // 
+            // button34
+            // 
+            this.button34.Location = new System.Drawing.Point(95, 181);
+            this.button34.Name = "button34";
+            this.button34.Size = new System.Drawing.Size(49, 33);
+            this.button34.TabIndex = 0;
+            this.button34.Text = "Й";
+            this.button34.UseVisualStyleBackColor = true;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -507,6 +517,7 @@ namespace WindowsFormsApp2
             this.Controls.Add(this.button14);
             this.Controls.Add(this.button13);
             this.Controls.Add(this.button12);
+            this.Controls.Add(this.button34);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
@@ -580,5 +591,6 @@ namespace WindowsFormsApp2
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.Button button34;
     }
 }

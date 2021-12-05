@@ -89,6 +89,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="WinField.resx">
       <DependentUpon>WinField.cs</DependentUpon>
@@ -105,6 +106,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b4fb6a4a7ecb2476f852a7fe37c43bc5.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BZzoD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\master_50603694_orig_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\д.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
