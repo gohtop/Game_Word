@@ -44,6 +44,7 @@ namespace WindowsFormsApp2
             this.losebutton.TabIndex = 0;
             this.losebutton.Text = "Попробовать ещё раз";
             this.losebutton.UseVisualStyleBackColor = true;
+            this.losebutton.Click += new System.EventHandler(this.losebutton_Click);
             // 
             // pictureBox1
             // 

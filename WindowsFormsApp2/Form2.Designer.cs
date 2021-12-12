@@ -351,6 +351,7 @@ namespace WindowsFormsApp2
             this.startgame.TabIndex = 0;
             this.startgame.Text = "Начать занаво";
             this.startgame.UseVisualStyleBackColor = true;
+            this.startgame.Click += new System.EventHandler(this.startgame_Click);
             // 
             // textBox1
             // 

@@ -116,7 +116,7 @@ namespace WindowsFormsApp2
                 {
                     loseField.ShowDialog();
                 }
-                startButton.PerformClick();
+                Close();
             }
             else if(!is_contains(show_text , '*'))
             {
@@ -124,6 +124,7 @@ namespace WindowsFormsApp2
                 {
                     win.ShowDialog();
                 }
+                Close();
             }
             cur_button.Enabled = false; 
             
@@ -138,7 +139,7 @@ namespace WindowsFormsApp2
 
         private void button26_Click(object sender, EventArgs e)
         {
-
+            Close();
         }
 
         private void button17_Click(object sender, EventArgs e)
@@ -295,5 +296,18 @@ namespace WindowsFormsApp2
         {
             button_sumbol_click(textBox1, 'Я', button33, startgame);
         }
+
+        private void startgame_Click(object sender, EventArgs e)
+        {
+            start_game(textBox1, lives_image);
+
+            Button[] buttons = new Button[] { button2, button3, button4, button5, button6, button7, button8, button9, button10, button11, button12, button13, button14, button15, button16, button17, button18, button19, button20, button21, button22, button23, button24, button25, button1,  button28, button29, button30, button31, button32, button33, };
+            for(int i = 0; i < buttons.Length; i++)
+            {
+                buttons[i].Enabled = true;
+            }
+        }
+
+        
     }
 }
