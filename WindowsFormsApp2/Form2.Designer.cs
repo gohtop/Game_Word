@@ -55,8 +55,8 @@ namespace WindowsFormsApp2
             this.button23 = new System.Windows.Forms.Button();
             this.button24 = new System.Windows.Forms.Button();
             this.button25 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
-            this.button27 = new System.Windows.Forms.Button();
+            this.close = new System.Windows.Forms.Button();
+            this.startgame = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -91,6 +91,7 @@ namespace WindowsFormsApp2
             this.button1.TabIndex = 0;
             this.button1.Text = "Н";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -100,6 +101,7 @@ namespace WindowsFormsApp2
             this.button2.TabIndex = 1;
             this.button2.Text = "А";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -119,6 +121,7 @@ namespace WindowsFormsApp2
             this.button4.TabIndex = 3;
             this.button4.Text = "И";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -148,6 +151,7 @@ namespace WindowsFormsApp2
             this.button7.TabIndex = 0;
             this.button7.Text = "Щ";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -157,6 +161,7 @@ namespace WindowsFormsApp2
             this.button8.TabIndex = 0;
             this.button8.Text = "Ц";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button9
             // 
@@ -166,6 +171,7 @@ namespace WindowsFormsApp2
             this.button9.TabIndex = 0;
             this.button9.Text = "Т";
             this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button10
             // 
@@ -185,6 +191,7 @@ namespace WindowsFormsApp2
             this.button11.TabIndex = 0;
             this.button11.Text = "К";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button12
             // 
@@ -194,6 +201,7 @@ namespace WindowsFormsApp2
             this.button12.TabIndex = 0;
             this.button12.Text = "Е";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button13
             // 
@@ -203,6 +211,7 @@ namespace WindowsFormsApp2
             this.button13.TabIndex = 0;
             this.button13.Text = "Б";
             this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // button14
             // 
@@ -222,6 +231,7 @@ namespace WindowsFormsApp2
             this.button15.TabIndex = 0;
             this.button15.Text = "Ж";
             this.button15.UseVisualStyleBackColor = true;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // button16
             // 
@@ -231,6 +241,7 @@ namespace WindowsFormsApp2
             this.button16.TabIndex = 0;
             this.button16.Text = "Л";
             this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // button17
             // 
@@ -250,6 +261,7 @@ namespace WindowsFormsApp2
             this.button18.TabIndex = 0;
             this.button18.Text = "У";
             this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
             // button19
             // 
@@ -259,6 +271,7 @@ namespace WindowsFormsApp2
             this.button19.TabIndex = 0;
             this.button19.Text = "Ч";
             this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
             // button20
             // 
@@ -268,6 +281,7 @@ namespace WindowsFormsApp2
             this.button20.TabIndex = 0;
             this.button20.Text = "Ш";
             this.button20.UseVisualStyleBackColor = true;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
             // button21
             // 
@@ -277,6 +291,7 @@ namespace WindowsFormsApp2
             this.button21.TabIndex = 0;
             this.button21.Text = "Ф";
             this.button21.UseVisualStyleBackColor = true;
+            this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
             // button22
             // 
@@ -286,6 +301,7 @@ namespace WindowsFormsApp2
             this.button22.TabIndex = 0;
             this.button22.Text = "Р";
             this.button22.UseVisualStyleBackColor = true;
+            this.button22.Click += new System.EventHandler(this.button22_Click);
             // 
             // button23
             // 
@@ -295,6 +311,7 @@ namespace WindowsFormsApp2
             this.button23.TabIndex = 0;
             this.button23.Text = "М";
             this.button23.UseVisualStyleBackColor = true;
+            this.button23.Click += new System.EventHandler(this.button23_Click);
             // 
             // button24
             // 
@@ -304,6 +321,7 @@ namespace WindowsFormsApp2
             this.button24.TabIndex = 0;
             this.button24.Text = "З";
             this.button24.UseVisualStyleBackColor = true;
+            this.button24.Click += new System.EventHandler(this.button24_Click);
             // 
             // button25
             // 
@@ -313,33 +331,36 @@ namespace WindowsFormsApp2
             this.button25.TabIndex = 0;
             this.button25.Text = "Г";
             this.button25.UseVisualStyleBackColor = true;
+            this.button25.Click += new System.EventHandler(this.button25_Click);
             // 
-            // button26
+            // close
             // 
-            this.button26.Location = new System.Drawing.Point(175, 432);
-            this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(79, 40);
-            this.button26.TabIndex = 0;
-            this.button26.Text = "Закрыть";
-            this.button26.UseVisualStyleBackColor = true;
-            this.button26.Click += new System.EventHandler(this.button26_Click);
+            this.close.Location = new System.Drawing.Point(175, 432);
+            this.close.Name = "close";
+            this.close.Size = new System.Drawing.Size(79, 40);
+            this.close.TabIndex = 0;
+            this.close.Text = "Закрыть";
+            this.close.UseVisualStyleBackColor = true;
+            this.close.Click += new System.EventHandler(this.button26_Click);
             // 
-            // button27
+            // startgame
             // 
-            this.button27.Location = new System.Drawing.Point(95, 432);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(69, 40);
-            this.button27.TabIndex = 0;
-            this.button27.Text = "Начать занаво";
-            this.button27.UseVisualStyleBackColor = true;
+            this.startgame.Location = new System.Drawing.Point(95, 432);
+            this.startgame.Name = "startgame";
+            this.startgame.Size = new System.Drawing.Size(69, 40);
+            this.startgame.TabIndex = 0;
+            this.startgame.Text = "Начать занаво";
+            this.startgame.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBox1.Location = new System.Drawing.Point(40, 55);
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(214, 20);
+            this.textBox1.Size = new System.Drawing.Size(214, 40);
             this.textBox1.TabIndex = 4;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // pictureBox1
             // 
@@ -379,6 +400,7 @@ namespace WindowsFormsApp2
             this.button28.TabIndex = 0;
             this.button28.Text = "Ъ";
             this.button28.UseVisualStyleBackColor = true;
+            this.button28.Click += new System.EventHandler(this.button28_Click);
             // 
             // button29
             // 
@@ -388,6 +410,7 @@ namespace WindowsFormsApp2
             this.button29.TabIndex = 0;
             this.button29.Text = "Ы";
             this.button29.UseVisualStyleBackColor = true;
+            this.button29.Click += new System.EventHandler(this.button29_Click);
             // 
             // button30
             // 
@@ -397,6 +420,7 @@ namespace WindowsFormsApp2
             this.button30.TabIndex = 0;
             this.button30.Text = "Ь";
             this.button30.UseVisualStyleBackColor = true;
+            this.button30.Click += new System.EventHandler(this.button30_Click);
             // 
             // button31
             // 
@@ -406,6 +430,7 @@ namespace WindowsFormsApp2
             this.button31.TabIndex = 0;
             this.button31.Text = "Э";
             this.button31.UseVisualStyleBackColor = true;
+            this.button31.Click += new System.EventHandler(this.button31_Click);
             // 
             // button32
             // 
@@ -415,6 +440,7 @@ namespace WindowsFormsApp2
             this.button32.TabIndex = 0;
             this.button32.Text = "Ю";
             this.button32.UseVisualStyleBackColor = true;
+            this.button32.Click += new System.EventHandler(this.button32_Click);
             // 
             // button33
             // 
@@ -424,6 +450,7 @@ namespace WindowsFormsApp2
             this.button33.TabIndex = 0;
             this.button33.Text = "Я";
             this.button33.UseVisualStyleBackColor = true;
+            this.button33.Click += new System.EventHandler(this.button33_Click);
             // 
             // pictureBox8
             // 
@@ -483,6 +510,7 @@ namespace WindowsFormsApp2
             this.button34.TabIndex = 0;
             this.button34.Text = "Й";
             this.button34.UseVisualStyleBackColor = true;
+            this.button34.Click += new System.EventHandler(this.button34_Click);
             // 
             // Form2
             // 
@@ -502,8 +530,8 @@ namespace WindowsFormsApp2
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button25);
-            this.Controls.Add(this.button27);
-            this.Controls.Add(this.button26);
+            this.Controls.Add(this.startgame);
+            this.Controls.Add(this.close);
             this.Controls.Add(this.button24);
             this.Controls.Add(this.button23);
             this.Controls.Add(this.button22);
@@ -574,8 +602,8 @@ namespace WindowsFormsApp2
         private System.Windows.Forms.Button button23;
         private System.Windows.Forms.Button button24;
         private System.Windows.Forms.Button button25;
-        private System.Windows.Forms.Button button26;
-        private System.Windows.Forms.Button button27;
+        private System.Windows.Forms.Button close;
+        private System.Windows.Forms.Button startgame;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;

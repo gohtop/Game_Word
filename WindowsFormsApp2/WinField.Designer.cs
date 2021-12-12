@@ -30,26 +30,26 @@ namespace WindowsFormsApp2
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(WinField));
-            this.button1 = new System.Windows.Forms.Button();
+            this.winbutton = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // winbutton
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(74, 273);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(354, 126);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Начать снова";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.winbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.winbutton.Location = new System.Drawing.Point(103, 284);
+            this.winbutton.Name = "winbutton";
+            this.winbutton.Size = new System.Drawing.Size(354, 126);
+            this.winbutton.TabIndex = 0;
+            this.winbutton.Text = "Начать снова";
+            this.winbutton.UseVisualStyleBackColor = true;
+            this.winbutton.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(74, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(103, 34);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(354, 233);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -60,9 +60,9 @@ namespace WindowsFormsApp2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(502, 450);
+            this.ClientSize = new System.Drawing.Size(560, 550);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.winbutton);
             this.Name = "WinField";
             this.Text = "WinField";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -72,7 +72,7 @@ namespace WindowsFormsApp2
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button winbutton;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
