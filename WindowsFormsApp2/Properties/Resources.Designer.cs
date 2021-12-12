@@ -63,6 +63,26 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2021_12_12_15_40_38 {
+            get {
+                object obj = ResourceManager.GetObject("_2021_12_12_15_40_38", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2021_12_12_15_42_55 {
+            get {
+                object obj = ResourceManager.GetObject("_2021_12_12_15_42_55", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap b4fb6a4a7ecb2476f852a7fe37c43bc5 {
             get {
                 object obj = ResourceManager.GetObject("b4fb6a4a7ecb2476f852a7fe37c43bc5", resourceCulture);
@@ -76,6 +96,16 @@ namespace WindowsFormsApp2.Properties {
         internal static System.Drawing.Bitmap BZzoD {
             get {
                 object obj = ResourceManager.GetObject("BZzoD", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon48 {
+            get {
+                object obj = ResourceManager.GetObject("icon48", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
